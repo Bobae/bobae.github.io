@@ -16,10 +16,7 @@
 
     <!-- style -->
     <link href="images/favicon.ico" rel="icon" type="image/x-icon" />
-    <link href="./assets/css/blog.css" rel="stylesheet">
-
-    <!-- Not sure what this is about -->
-    <script src="./assets/js/ie-emulation-modes-warning.js"></script>
+    <link href="./assets/css/main.css" rel="stylesheet">
 
     <!-- Fonts here -->
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
@@ -27,125 +24,84 @@
 
   </head>
 
-
-  <body>
+<body>
     <div id="site">
+      <div class="blog-masthead">
+        <!--site header-->
+        <div class="blog-header">
+          <h1 class="blog-title">jean bae</h1>
+          <p class="lead blog-description">UX Portfolio</p>
+        </div>
+      </div> <!--blog-masthead-->
+
+      <!--site nav links-->
+      <div class="blog-menu-wrap">
+       
+        <nav class="blog-nav">
+          <ul class "blog-nav-item">
+            <li><a class="blog-nav-item active" href="http://jbae.co">Home</a></li>
+            <!--<li><a class="blog-nav-item" href="archive.html">Archives</a></li>-->
+            <li><a class="blog-nav-item category-menu">Categories</a>
+                <ul class="sub-menu">
+                  <li id="web"><a href="#">web</a></li>
+                  <li id="data-viz"><a href="#">data viz</a></li>
+                  <li id="sketches"><a href="#">sketches</a></li>
+                  <li id="prototypes"><a href="#">prototypes</a></li>
+                  <li id="process"><a href="#">process</a></li>
+                  <li id="learning"><a href="#">learning</a></li>
+                </ul>
+            </li> 
+            <li><a class="blog-nav-item" href="http://emotivelush.com" target="_blank">Blog</a></li>
+          </ul>
+        </nav>
+      </div> <!--blog-menu-wrap-->
+
       <div id="canvas">
-
-        <div class="blog-masthead">
-          <div class="container">
-            <!--site header-->
-            <div class="blog-header">
-              <h1 class="blog-title">jbae.co</h1>
-              <p class="lead blog-description">A real-time web learning project and personal blog</p>
-            </div>
-            <!--site nav links-->
-            <nav class="blog-nav">
-              <a class="blog-nav-item active" href="index.html">Home</a>
-              <a class="blog-nav-item" href="page.html">Categories</a>
-              <a class="blog-nav-item" href="page.html">Data Viz</a>
-              <a class="blog-nav-item" href="http://blog.jbae.co" target="_blank">Journal</a>
-              <a class="blog-nav-item" href="page.html">About</a>
-            </nav>
-          </div> <!--container-->
-        </div> <!--blog-masthead-->
-
-        <!--==================================
-            BLOG POSTS BELOW 
-        ======================================-->
-
-        <div class="container">
-          <div class="row">
-            <div class="blog-main">
-
-             <!-- Template Post -->
-             <!--======= START POST ========= 
-              <div class="blog-post" id="yyyy-mm-dd-user">
-                <h3 class="blog-post-title">&Larr; Post Title&Rarr;</h3>
-                <p class="blog-post-meta">December 14, 2013 by <a href="#">Jean</a> in <a href="#">Name-Category</a>
-                </p>
-                <p>
-                [some html content here]
-                </p>
-              </div> -->  <!--====END POST====-->
+        <!--=======================================
+                  BLOG POSTS BELOW HERE
+          =========================================-->
+        <div class="blog-main">
+         <!-- **** Template Post **** -->
+         <!--======= Start Post ========= 
+          <div class="blog-post post-class" id="yyyy-mm-dd-user">
+            <h3 class="blog-post-title">&Larr; Post Title&Rarr;</h3>
+            <p class="blog-post-meta"><span class="pubdate">December 14, 2013</span> by Jean</a> in <a class="post-cat-link" href="#">Name-Category</a></p>
+            <img class="post-image" src="">
+            <p class="post-content">
+            [some html content here]
+            </p>
+          </div> -->  <!--==== End Post ====-->
+        
           
+          <!--======== Start Post ======== -->
+          <div class="blog-post learning-post">
+            <h3 class="blog-post-title">A new site</h3>
+            <p class="blog-post-meta">April 8, 2015 by <a href="#">Jean</a> in <a href="#">Learning</a></p>
+            <div class="post-content">
+              <h3>Getting started</h3>
+              <p>This is the first post on this site! I wanted to work on a static site that is completely hand-coded. I'll probably transition to <a href="http://jekyllrb.com/">Jekyll</a> at some point, so this site will probably go through some iterations.</p>  
 
-              <!--========= START POST==========-->
-              <div class="blog-post">
-                <h3 class="blog-post-title">&Larr; What's the project? &Rarr;</h3>
-                <p class="blog-post-meta">April 9, 2015 by <a href="#">Jean</a> in <a href="#">Learning</a>
-                </p>
+              <h3>Today</h3>  
+              <p>Today, I started with Bootstrap's blog template, but eventually stripped away most of it in favor of my own styling preferences. Upon browsing online for a few blog templates, I found a few designs I liked on <a href="http://www.squarespace.com/tour/create-a-blog">Squarespace</a>. I liked the <a href="http://www.squarespace.com/templates/?q=native">Native</a> template design, so I looked at their example site and built this site around that style.</p>
 
-               <h2>Next Up</h2>
-                <p>I have a running list of site features I'd like to work on. This list will probably grow and get re-prioritized, so check back on this list later.</p>
+              <p>While this site is a functional prototype, I'm working on releasing another version in May with some additional features and refinement.</p>
 
-                <h3>Future Features</h3>
-                <ol>
-                  <li>
-                    <b>Pages</b> - the about, data viz, and other pages haven't been created yet and currently link to an empty placeholder page (stay tuned!)
-                  </li>
-                  <li>
-                    <b>Post categories</b> - create post categories and on the post meta information, make links to filter the page for posts by category.
-                  </li>
-                  <li>
-                    <b>Page nav &amp; meta links</b> - most of them do not work right now
-                  </li>
-                  <li>
-                    <b>Images</b> - create format for leading image to precede the post
-                  </li>
-                  <li>
-                    <b>Spell check</b> - look into some spell-checker options to implement
-                  <li>
-                    <b>Site performance</b> - need to check for and make enhancements for site performance (i.e. load speeds and responsiveness [iterative]
-                  </li>
-                  <li>
-                    <b>Comments</b> - include commenting functionality for posts
-                  </li>
-                  <li>
-                    <b>Sharing</b> - include sharing optionfor photo to Pinterest and Twitter
-                  </li>
-                   <li>
-                    <b>Google &amp; SEO</b> - could add google analytics to site and clean up my google apps acounts
-                  </li>
-                </ol>
-              </div><!--====END POST====-->
+              <h3>Are you learning web development and based in NYC?</h3>
+              <p>If you're new to front-end, I'm always looking for ways to learn together or collaborate. This site is hosted via <strong>github pages</strong>, and the repo can be found <a href="https://github.com/Bobae/bobae.github.io">here</a>.</p>
+              
+              <p>Questions/Comments/Advice?
+                <a href="mailto:jean@jbae.co?Subject=Hello,%20Jean" target="_top">Lets connect!</a>
+              </p>
+            </div>  
+          </div>
+          <!--====== End Post ======-->
 
-              <!--======== START POST ======== -->
-              <div class="blog-post">
-                <h3 class="blog-post-title">&Larr; What's all this about now? &Rarr;</h3>
-                <p class="blog-post-meta">April 8, 2015 by <a href="#">Jean</a> in <a href="page.html">Learning</a>
-                </p>
-
-                <h2>Getting started</h2>
-                <p>This is the first post on this project! I wanted to work on a static site that is completely hand-coded. This site will be continually build-up. I'll probably transition to <a href="http://jekyllrb.com/">Jekyll</a> at some point, but this project-based approach is probably the best for my learning.  
-
-                <h3>Today</h3>  
-                <p>
-                  Today, I started with Bootstrap's blog template, but ended up stripping away almost all of it (the styling wasn't what I was looking for). Upon browsing online for a few blog templates, finally found a few I liked on <a href="http://www.squarespace.com/tour/create-a-blog">Squarespace</a>. I found that the <a href="http://www.squarespace.com/templates/?q=native">Native</a> template was my favorite for this project, so I looked at an example and then build this site around that. It is a <em>skeleton</em> at this point, and I'll continue to modify and layer on the dyanmic elements.
-                </p>
-
-                <p>
-                  I edited the <code>index.html</code> and <code>blog.css</code> files until I got this rendering. Building the DOM structure and all styling (initial "blog v2" commit) took a whole day for me.
-                </p>
-
-                <h3>Want to collaborate?</h3>
-                <p>
-                  This site is hosted through <strong>github pages</strong>. Only on first commit at time of this post, but go ahead and fork the repo if you like <a ahref="https://github.com/Bobae/bobae.github.io">here</a>.
-                </p>
-                <p>Questions/Comments?
-                  <a href="mailto:jean@jbae.co?Subject=Hello,%20Jean" target="_top"> Send me an email</a>
-                </p>
-              </div><!--====END POST====-->
-
-            </div><!--blog-main-->
-
-            <!--===================================
-                   END BLOG POSTING HERE FOR NOW
-            =======================================-->
-
-          </div><!--/.row-->
-        </div><!-- /.container -->
+        </div><!--blog-main--> 
+        <!--=================================================
+               END BLOG POSTING
+        =====================================================-->
       </div><!--canvas-->
+
 
       <!-- PAGE NAVIGATION -->
       <div class="pg-bottom-nav"> 
@@ -159,17 +115,7 @@
             </li>
           </ul>
         </nav>
-    
-        <!-- ARCHIVE 
-        <div class="sidebar-module">
-          <h4>Archives</h4>
-          <ol class="list-unstyled">
-            <li><a href="#">March 2015</a></li>
-            <li><a href="#">February 2015</a></li>
-          </ol>
-        </div> 
-        -->
-      </div> <!--page navigation--> 
+      </div> <!-- end page navigation--> 
 
       <!-- FOOTER -->
       <footer class="blog-footer">
@@ -180,22 +126,36 @@
           <a href="https://www.pinterest.com/jeanusbae/"><img src="assets/images/pinterest.png" alt="Pinterest" class="social-icon"></a>
         </p>
 
-        <p>Built by <a href="https://twitter.com/jeanusbae">@jeanusbae</a>.</p>
+        <p>Built by <a href="https://twitter.com/jeanusbae">@jeanusbae</a></p>
 
         <p><a href="#">Back to top</a></p>
       </footer>
 
     </div><!--site-->
 
-    <!-- JavaScript 
+
+    <!-- JavaScript jQuery 
     ==================================================-->
-    
-    <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+     <link  href="http://ajax.googleapis.com/ajax/libs/jqueryui/1/themes/smoothness/jquery-ui.css" rel="stylesheet" type="text/css"/>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-57707907-2', 'auto');
+      ga('send', 'pageview');
+    </script>
 
   </body>
 </html>
+
+
