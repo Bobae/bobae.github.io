@@ -871,6 +871,9 @@ p {
   margin-top: 15px;
 }
 
+#port_btn {
+  padding: 13px 24px;
+}
 
 /* Process
 -------------------------------------------------------*/
@@ -2992,7 +2995,7 @@ p.footer-address {
 -------------------------------------------------------*/
 
 .page-title.style-2 {
-  background-color: #f7f7f7;
+  background-color: #F7F7F9;
   padding: 60px 0;
 }
 
@@ -3179,7 +3182,12 @@ p.footer-address {
 
 .btn-lg {
   font-size: 14px;
-  padding: 13px 34px;
+  padding: 13px 38px;
+}
+
+.btn-lg2 {
+  font-size: 14px;
+  padding: 13px 26px;
 }
 
 .btn-md {
@@ -3513,14 +3521,14 @@ ol.numbers {
 .nav-type-3 {
   background-color: #fff;
   position: fixed;
-  height: 100px;
+  height: 70px;
   width: 100%;
   z-index: 1000;
 }
 
 .nav-type-3 .nav-wrap {
   display: table;
-  height: 100px;
+  height: 70px;
   width: 100%;
   float: left;
 }
@@ -3529,8 +3537,8 @@ ol.numbers {
   z-index: 11;
   vertical-align: middle;
   display: table-cell;
-  height: 100px;
-  padding: 0 20px;
+  height: 70px;
+  padding: 0 0px;
 }
 
 .full-nav,
