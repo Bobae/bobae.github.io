@@ -46,40 +46,83 @@
 		<!-- Preloader -->
 		<div class="loader-mask">
 			<div class="loader">
-				"Loading..."
+				"Loading the good stuff..."
 			</div>
 		</div>
 
 		<!-- Navigation -->
-		<header class="nav-type-3">
 
-			<div class="fs-menu" id="overlay">
-				<nav class="overlay-menu">
-			    	<ul>
-			    		<li class="active"><a href="index.html">Work</a></li>
-			    		<li><a href="about-me.html">About Me</a></li>
-			    		<li><a href="contact.html">Contact</a></li>
-					</ul>
-				</nav>
-			</div>		
+		<header class="nav-type-2">
+		
+		    <nav class="navbar navbar-static-top">
+		    	<div class="navigation">
+			      	<div class="container relative">
 
-			<div class="container-fluid nav-wrap clearfix">
+			 					<!-- no search for now 
+		      			<form method="get" class="search-wrap">
+		      			    <input type="search" class="form-control" placeholder="Type &amp; Hit Enter">
+		      		    </form> -->
 
-				<div class="logo-container">
-					<a href="index.html" class="logo">
-						<img src="img/logo_dark.png" alt="logo">
-					</a>
-				</div>
+			      		<div class="row">
 
-				<div id="nav-icon">
-					<span></span>
-					<span></span>
-					<span></span>
-					<span></span>
-				</div>
+					        <div class="navbar-header">
+        				        <!-- Logo -->
+            		        	<div class="logo-container">
+                        			<div class="logo-wrap">
+                        	        	<a href="index.html">
+                        	        		<img class="logo" src="img/logo_dark.png" alt="logo">
+                        	          	</a>
+                                	</div>
+                		        </div>
+					        	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+						            <span class="sr-only">Toggle navigation</span>
+						            <span class="icon-bar"></span>
+						            <span class="icon-bar"></span>
+						            <span class="icon-bar"></span>
+					        	</button>
+					        </div> <!-- end navbar-header -->
 
-			</div> <!-- end container -->
+					        <div class="col-md-9 nav-wrap right">
+						        <div class="collapse navbar-collapse in" id="navbar-collapse">
+						          
+						        	<ul class="nav navbar-nav navbar-right">
+							          	
+							          	<li class="active">
+							            	<a href="index.html" class="active">Work</a>
+							            </li>
 
+							            <li>
+							            	<a href="about-me.html">About Me</a>
+							            </li>
+
+							            <li>
+							            	<a href="blog-single.html">Blog</a>
+							            </li>
+							            	<!-- Remove search for now	
+    						            <li id="mobile-search">
+						            		<form method="get" class="mobile-search">
+						            		    <input type="search" class="form-control" placeholder="Search...">
+						            		    <button type="submit" class="search-button">
+						            		    	<i class="fa fa-search"></i>
+						            		    </button>
+						            	    </form>
+							            </li>
+
+							            <li>
+							            	<a href="#" class="nav-search">
+							            		<i class="fa fa-search search-trigger"></i>
+							            		<i class="fa fa-times search-close"></i>
+							            	</a>
+							            </li>	
+													--> <!-- End Search -->
+						        	</ul> <!-- end menu -->
+						        </div> <!-- end collapse -->
+							</div> <!-- end col -->
+			        
+				       	</div> <!-- end row -->
+		      		</div> <!-- end container -->
+		      	</div> <!-- end navigation -->
+		    </nav> <!-- end navbar -->
 	    </header>
 
 
@@ -210,34 +253,71 @@
 				</div>
 			</section> <!-- end call to action -->
 
-			<!-- Footer -->
-			<footer class="footer footer-type-3">
+			<!-- Footer Type-Links -->
+			<footer class="footer footer-type-2 bg-dark">
 				<div class="container">
-					<div class="row">
+					<div class="footer-widgets">
+						<div class="row">
 
-						<div class="col-sm-4 col-xs-12">
-							<span class="copyright">
-								©2016 Jean Bae
-							</span>
-						</div>
+							<div class="col-md-4 col-sm-6 col-xs-12">
+								<div class="widget footer-about-us">
+									<h5>About Jean</h5>
+									<p class="mb-0">Jean is a user experience designer with a background in data analysis. She is based in NYC and hails from Portland, OR. She is the founder ofr Good People NYC, Inc. which provides</p>
+								</div>
+							</div> <!-- end about us -->
 
-						<div class="col-sm-3 col-xs-12">
-							<a href="mailto:hello.jbae@gmail.com">jean@jbae.co</a>
-						</div>
+							<!-- start useful links -->
+							<div class="col-md-4 col-sm-6 col-xs-12">
+								<div class="widget footer-links">
+									<h5>Useful Links</h5>
+									<ul>
+										<li><a href="#">Wireframe</a></li>
+										<li><a href="#">What is UX design?</a></li>
+										<li><a href="#">What makes a good user experience?</a></li>
+										<li><a href="#">Another resource here</a></li>
+									</ul>
+								</div>
+							</div> <!-- end useful links -->
 
-						<div class="col-sm-5 col-xs-12">
-							<div class="socials footer-socials">
-								<a href="https://twitter.com/jean8ae" target="_blank"><i class="fa fa-twitter"></i></a>
-								<a href="https://www.facebook.com/jean.bae.1" target="_blank"><i class="fa fa-facebook"></i></a>
-								<a href="https://www.instagram.com/jean8ae" target="_blank"><i class="fa fa-instagram"></i></a>
-								<a href="https://github.com/Bobae" target="_blank"><i class="fa fa-github"></i></a>
-								<a href="https://www.linkedin.com/in/jeanbae" target="_blank"><i class="fa fa-linkedin"></i></a>
+								<div class="col-md-3 col-sm-6 col-xs-12">
+								<div class="widget footer-get-in-touch">
+									<h5>Get in Touch</h5>
+									<p class="footer-address">Jean Bae <br>Good People NYC, Inc.<br> New York, NY 10002</p>
+
+									<p>Email: <a href="mailto:hello.jbae@gmail.com">jean@jbae.co</a></p>
+								</div>
+							</div> <!-- end stay in touch -->
+
+						</div> <!-- end row -->
+					</div> <!-- end footer widgets -->			
+				</div> <!-- end container -->
+
+				<div class="bottom-footer">
+					<div class="container">
+						<div class="row">
+
+							<div class="col-sm-6 col-xs-12 copyright">
+								<span>
+									© 2016 Jean Bae</a>
+								</span>
 							</div>
-						</div>
 
+							<div class="col-sm-4 col-sm-offset-2 col-xs-12 footer-socials">
+								<div class="social-icons clearfix right">
+									<a href="https://twitter.com/jean8ae" target="_blank"><i class="fa fa-twitter"></i></a>
+									<a href="https://www.facebook.com/jean.bae.1" target="_blank"><i class="fa fa-facebook"></i></a>
+									<a href="https://www.instagram.com/jean8ae" target="_blank"><i class="fa fa-instagram"></i></a>
+									<a href="https://github.com/Bobae" target="_blank"><i class="fa fa-github"></i></a>
+									<a href="https://www.linkedin.com/in/jeanbae" target="_blank"><i class="fa fa-linkedin"></i></a>
+								</div>
+							</div>
+
+						</div>
 					</div>
-				</div>
+				</div> <!-- end bottom footer -->
 			</footer> <!-- end footer -->
+
+
 
 			<div id="back-to-top">
 				<a href="#top"><i class="fa fa-angle-up"></i></a>
