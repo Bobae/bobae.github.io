@@ -17,7 +17,6 @@
         initOwlCarousel();
         initTextrotator();
         initOnepagenav();
-        initGmap();
         initPiechart();
         initMasonry();
 
@@ -525,38 +524,3 @@ function container_full_height_init(){
 }
 
 
-/* Google Map
--------------------------------------------------------*/
-function initGmap(){
-    
-    var maplocation = $(".gmap").attr("data-address");
-    
-    $(".gmap").gmap3({
-        marker: {
-            address: maplocation,
-            options: {
-                icon: "img/map_pin.png"
-            }
-        },
-        map:{
-            options:{
-                zoom: 16,
-                zoomControl: true,
-                mapTypeControl: false,
-                scaleControl: false,
-                scrollwheel: false,
-                navigationControl: true,
-                streetViewControl: false,
-                draggable: true,
-                styles: [
-                    {
-                    "featureType":"all",
-                    "elementType":"all",
-                        "stylers":[
-                            { "saturation":"-70" }
-                        ]
-                    }]
-            }
-        }
-    });
-}

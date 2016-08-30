@@ -26,8 +26,6 @@
 		<link rel="stylesheet" href="css/stroke-gap-icons.css" />
 		<link rel="stylesheet" href="css/elegant-icons.css" />
 		<link rel="stylesheet" href="css/font-awesome.css" />
-		<link rel="stylesheet" href="css/owl.carousel.css">
-		<link rel="stylesheet" href="css/flexslider.css">
 		<link rel="stylesheet" href="css/style.css" />
 		<link rel="stylesheet" href="css/responsive.css" />
 		<link rel="stylesheet" href="css/spacings.css" />
@@ -52,11 +50,11 @@
 
 		<!-- Navigation -->
 
-		<header class="nav-type-2">
+		<header class="nav-type-2" id="home">
 		
 		    <nav class="navbar navbar-static-top">
 		    	<div class="navigation">
-			      	<div class="container relative">
+			      	<div class="container-fluid relative">
 
 			 					<!-- no search for now 
 		      			<form method="get" class="search-wrap">
@@ -69,7 +67,7 @@
         				        <!-- Logo -->
             		        	<div class="logo-container">
                         			<div class="logo-wrap">
-                        	        	<a href="index.html">
+                        	        	<a href="/">
                         	        		<img class="logo" src="img/logo_dark.png" alt="logo">
                         	          	</a>
                                 	</div>
@@ -82,13 +80,13 @@
 					        	</button>
 					        </div> <!-- end navbar-header -->
 
-					        <div class="col-md-9 nav-wrap right">
-						        <div class="collapse navbar-collapse in" id="navbar-collapse">
+					         <div class="col-md-8 col-xs-12 nav-wrap">
+						        <div class="collapse navbar-collapse text-right" id="navbar-collapse">
 						          
-						        	<ul class="nav navbar-nav navbar-right">
+						        	<ul class="nav navbar-nav local-scroll text-center">
 							          	
 							          	<li class="active">
-							            	<a href="index.html" class="active">Work</a>
+							            	<a href="/">Work</a>
 							            </li>
 
 							            <li>
@@ -97,6 +95,10 @@
 
 							            <li>
 							            	<a href="blog-single.html">Blog</a>
+							            </li>
+
+							            <li>
+							            	<a href="contact.html">Contact</a>
 							            </li>
 							            	<!-- Remove search for now	
     						            <li id="mobile-search">
@@ -117,13 +119,14 @@
 													--> <!-- End Search -->
 						        	</ul> <!-- end menu -->
 						        </div> <!-- end collapse -->
-							</div> <!-- end col -->
+									</div> <!-- end col -->
 			        
 				       	</div> <!-- end row -->
 		      		</div> <!-- end container -->
 		      	</div> <!-- end navigation -->
 		    </nav> <!-- end navbar -->
-	    </header>
+	    </header> 
+	    <!-- End Navigation Section-->
 
 
 		<div class="main-wrapper oh">
@@ -245,6 +248,7 @@
 
 						<div class="col-xs-12">	
 							<h2>Want to learn more?</h2>
+							<p id="PDF-msg">Please give the PDF time load</p>
 							<a href="https://db.tt/GnU00W3v" target="_blank" class="btn btn-lg2 btn-transparent">PDF Portfolio</a>
 							<a href="https://db.tt/kulDLDzg" target="_blank" class="btn btn-lg btn-white">Get Resume</a>
 						</div>
@@ -253,7 +257,7 @@
 				</div>
 			</section> <!-- end call to action -->
 
-			<!-- Footer Type-Links -->
+			<!-- FOOTER  -->
 			<footer class="footer footer-type-2 bg-dark">
 				<div class="container">
 					<div class="footer-widgets">
@@ -262,7 +266,8 @@
 							<div class="col-md-4 col-sm-6 col-xs-12">
 								<div class="widget footer-about-us">
 									<h5>About Jean</h5>
-									<p class="mb-0">Jean is a user experience designer with a background in data analysis. She is based in NYC and hails from Portland, OR. She is the founder ofr Good People NYC, Inc. which provides</p>
+									<p class="footer-p">Jean is a user experience designer working on web and mobile products. She is based in NYC.</p>
+									<p class="footer-p">Looking for new and innovative products to work on.</p>
 								</div>
 							</div> <!-- end about us -->
 
@@ -271,10 +276,10 @@
 								<div class="widget footer-links">
 									<h5>Useful Links</h5>
 									<ul>
-										<li><a href="#">Wireframe</a></li>
-										<li><a href="#">What is UX design?</a></li>
-										<li><a href="#">What makes a good user experience?</a></li>
-										<li><a href="#">Another resource here</a></li>
+										<li><a href="https://medium.com/@UXAliveTurkey/the-best-ux-designer-tools-resources-collection-24bf115d17bc#.klkdq7k74" target="_blank">UX Designer Tools &amp; Resources </a></li>
+										<li><a href="http://ui-patterns.com/" target="_blank">UI Patterns</a></li>
+										<li><a href="https://www.fastcodesign.com/1672597/11-rules-for-great-ux-design-adapted-from-an-original-mad-man" target="_blank">What makes a good user experience?</a></li>
+										<li><a href="https://uxdesign.cc/what-makes-a-good-ux-designer-6959ab22f4e8#.3hb0q7gx5" target="_blank">What makes a good UX designer?</a></li>
 									</ul>
 								</div>
 							</div> <!-- end useful links -->
@@ -315,8 +320,7 @@
 						</div>
 					</div>
 				</div> <!-- end bottom footer -->
-			</footer> <!-- end footer -->
-
+			</footer> <!-- end FOOTER -->
 
 
 			<div id="back-to-top">
@@ -329,7 +333,6 @@
 		<script type="text/javascript" src="js/jquery.min.js"></script>
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="js/lightbox.min.js"></script>
-		<script type="text/javascript" src="js/owl.carousel.min.js"></script>
 		<script type="text/javascript" src="js/jquery.countTo.js"></script>
 		<script type="text/javascript" src="js/jquery.appear.js"></script>
 		<script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
@@ -341,9 +344,7 @@
 		<script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
 		<script type="text/javascript" src="js/jquery.fitvids.js"></script>
 		<script type="text/javascript" src="js/wow.min.js"></script>
-		<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
-		<script type="text/javascript" src="js/gmap3.min.js"></script>
-	    <script type="text/javascript" src="js/scripts.js"></script>
+	  <script type="text/javascript" src="js/scripts.js"></script>
 	<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
