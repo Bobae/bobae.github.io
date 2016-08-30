@@ -61,6 +61,14 @@ a:focus {
   outline: none;
 }
 
+#email-CTA {
+  font-weight: bold;
+}
+
+#email-CTA:hover {
+  color: #fff;
+}
+
 :focus {
   outline: none;
 }
@@ -74,7 +82,7 @@ ul {
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Pt Serif', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 15px;
   line-height: 1.5;
   font-smoothing: antialiased;
@@ -87,8 +95,9 @@ body {
 }
 
 #PDF-msg {
-  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-  font-size: 15px;
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
   color: #fff;
 }
 
@@ -309,6 +318,7 @@ p {
 .logo-wrap {
   display: table;
   width: 100%;
+  padding-left: 0px;
 }
 
 .logo-wrap > a {
@@ -569,7 +579,7 @@ p {
 -------------------------------------------------------*/
 
 .subheading {
-  font-family: "Pt Serif", Serif;
+  font-family: "Roboto", Serif;
   font-size: 16px;
   font-style: italic;
 }
@@ -1277,7 +1287,7 @@ p {
   color: #fff;
   font-style: italic;
   margin: 30px 0;
-  font-family: "Pt Serif", Serif;
+  font-family: "Roboto", Serif;
 }
 
 .testimonial i {
@@ -1334,6 +1344,10 @@ p {
 .contact-row {
   margin-left: -8px;
   margin-right: -8px;
+}
+
+.contact-items-row {
+  padding-left: 20px;
 }
 
 .contact-name,
@@ -1788,7 +1802,7 @@ textarea:focus {
   font-size: 22px;
   line-height: 34px;
   font-style: italic;
-  font-family: "Pt Serif", Serif;
+  font-family: "Roboto", Serif;
 }
 
 .blog-content .entry-item blockquote > p > a:hover {
@@ -1981,7 +1995,7 @@ input.searchbox:focus {
 .widget.latest-posts .entry-meta > span {
   color: #7a7a7a;
   font-size: 13px;
-  font-family: "Pt Serif", sans-serif;
+  font-family: "Roboto", sans-serif;
   text-transform: none;
   margin-top: 5px;
   display: block;
@@ -2074,7 +2088,7 @@ input.searchbox:focus {
   font-style: italic;
   font-size: 14px;
   line-height: 37px;
-  font-family: "Pt Serif", Serif;
+  font-family: "Roboto", Serif;
   color: #7a7a7a;
 }
 
@@ -3761,7 +3775,7 @@ ol.numbers {
 -------------------------------------------------------*/
 
 .section-wrap.intro {
-  padding: 90px 0 150px;
+  padding: 70px 0 140px;
 }
 
 .intro.style-2 .intro-text p {
@@ -3864,7 +3878,7 @@ ol.numbers {
 }
 
 .about-me .info {
-  padding-left: 7%; 
+  padding-left: 7%;
 }
 
 
