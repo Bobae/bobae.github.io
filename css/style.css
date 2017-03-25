@@ -46,7 +46,7 @@
 
 a {
   text-decoration: none;
-  color: #8CBEB5;
+  color: #043298;
   outline: none;
   -webkit-transition: color .2s ease-in-out;
   -moz-transition: color .2s ease-in-out;
@@ -57,16 +57,17 @@ a {
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #7a7a7a;
+  color: #555;
   outline: none;
 }
 
 #email-CTA {
   font-weight: bold;
+  color: #131313;
 }
 
 #email-CTA:hover {
-  color: #fff;
+  color: #FFC202;
 }
 
 :focus {
@@ -82,7 +83,7 @@ ul {
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Assistant', sans-serif;
   font-size: 15px;
   line-height: 1.5;
   font-smoothing: antialiased;
@@ -91,11 +92,11 @@ body {
   outline: 0;
   overflow-x: hidden;
   overflow-y: auto;
-  color: #7a7a7a;
+  color: #555;
 }
 
 #PDF-msg {
-  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  font-family: 'Assistant', Helvetica, Arial, sans-serif;
   font-weight: 500;
   font-size: 16px;
   color: #fff;
@@ -117,7 +118,7 @@ body img {
 }
 
 h1,h2,h3,h4,h5,h6 {
-  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-family: 'Amiko', Helvetica, Arial, sans-serif;
   margin-top: 0;
   text-transform: uppercase;
   color: #111;
@@ -134,7 +135,7 @@ h6 { font-size: 15px; }
 
 p {
   font-size: 15px;
-  color: #7a7a7a;
+  color: #555;
   font-weight: normal;
   line-height: 25px;
 }
@@ -278,7 +279,7 @@ p {
 }
 
 .navbar-nav > li > a {
-  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-family: 'Amiko', Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   padding: 0 20px;
   line-height: 90px;
@@ -342,11 +343,11 @@ p {
   -o-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  height: 66px;
+  height: 38px;
 }
 
 .logo-wrap.shrink img {
-  height: 48px;
+  height: 38px;
 }
 
 .navbar-collapse.in {
@@ -357,7 +358,7 @@ p {
 .navbar-nav > .active > a:focus,
 .navbar-nav > .active > a:hover {
   opacity: 1;
-  color: #8CBEB5 !important;
+  color: #043298 !important;
 }
 
 .navbar-nav > li > a:hover,
@@ -367,7 +368,7 @@ p {
 }
 
 .menu-socials li > a:hover {
-  border-color: #8CBEB5;
+  border-color: #043298;
 }
 
 .navbar-collapse {
@@ -408,7 +409,7 @@ p {
   }
 
   .logo-wrap img {
-    height: 48px;
+    height: 36px;
   }
 
   .logo-wrap > a {
@@ -558,7 +559,7 @@ p {
 
 .statistic span {
   font-size: 36px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Amiko', sans-serif;
   color: #fff;
   display: block;
   line-height: 1;
@@ -579,7 +580,7 @@ p {
 -------------------------------------------------------*/
 
 .subheading {
-  font-family: "Roboto", Serif;
+  font-family: "Assistant", Sans-Serif;
   font-size: 16px;
   font-style: italic;
 }
@@ -653,8 +654,8 @@ p {
 /* Effect 1 */
 .icon-effect-1 .hi-icon {
   background-color: transparent;
-  color: #8CBEB5;
-  border: 2px solid #8CBEB5;
+  color: #043298;
+  border: 2px solid #043298;
   -webkit-transition: background 0.2s, color 0.2s;
   -moz-transition: background 0.2s, color 0.2s;
   transition: background 0.2s, color 0.2s;
@@ -1058,12 +1059,12 @@ p {
 }
 
 .team-details .socials i {
-	color: #fff;
+  color: #fff;
 }
 
 .socials a:hover i {
   color: #fff;
-  background-color: #8CBEB5;
+  background-color: #043298;
 }
 
 
@@ -1094,7 +1095,7 @@ p {
 .skills-progress h6,
 .skills-progress h6 span {
   color: #333;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Amiko', sans-serif;
   font-size: 13px;
   margin-top: 0;
   margin-bottom: 10px;
@@ -1115,7 +1116,7 @@ p {
   height: 8px;
   position: relative;
   overflow: hidden;
-  background-color: #8CBEB5;
+  background-color: #043298;
 }
 
 .skills-progress h6 span {
@@ -1201,7 +1202,7 @@ p {
 
 .read-more {
   font-size: 12px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Amiko", sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.02em;
   font-weight: bold;
@@ -1287,7 +1288,7 @@ p {
   color: #fff;
   font-style: italic;
   margin: 30px 0;
-  font-family: "Roboto", Serif;
+  font-family: "Assistant", Sans-Serif;
 }
 
 .testimonial i {
@@ -1387,7 +1388,7 @@ p {
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
   border-radius: 50%;
-  border: 2px solid #8CBEB5;
+  border: 2px solid #043298;
   text-align: center;
   position: absolute;
   left: 0;
@@ -1395,7 +1396,7 @@ p {
 
 .contact-icon i {
   font-size: 18px;
-  color: #8CBEB5;
+  color: #043298;
   line-height: 47px;
 }
 
@@ -1421,11 +1422,11 @@ textarea {
   width: 100%;
   margin-bottom: 16px;
   padding: 0 16px;
-	-webkit-transition: border-color 0.3s ease-in-out;
-	-moz-transition: border-color 0.3s ease-in-out;
-	-ms-transition: border-color 0.3s ease-in-out;
-	-o-transition: border-color 0.3s ease-in-out;
-	transition: border-color 0.3s ease-in-out;
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  -ms-transition: border-color 0.3s ease-in-out;
+  -o-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
 }
 
 textarea#comment {
@@ -1448,7 +1449,7 @@ input[type="tel"]:focus,
 input[type="time"]:focus,
 input[type="url"]:focus,
 textarea:focus {
-  border-color: #8CBEB5;
+  border-color: #043298;
   outline: none;
   box-shadow: none;
 }
@@ -1485,7 +1486,7 @@ textarea:focus {
   display: block;
   margin-top: 70px;
   font-size: 10px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Amiko", sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
@@ -1517,8 +1518,8 @@ textarea:focus {
 }
 
 .socials.footer-socials a:hover i {
-	color: #fff;
-	background-color: #8CBEB5;
+  color: #fff;
+  background-color: #043298;
 }
 
 
@@ -1612,7 +1613,7 @@ textarea:focus {
 
 .owl-next:hover i,
 .owl-prev:hover i {
-  color: #8CBEB5;
+  color: #043298;
 }
 
 
@@ -1635,7 +1636,7 @@ textarea:focus {
 }
 
 .page-title .heading-frame {
-	border-color: #fff;
+  border-color: #fff;
 }
 
 .title-holder {
@@ -1722,7 +1723,7 @@ textarea:focus {
 }
 
 .blog-standard .entry {
-	margin-top: 35px;
+  margin-top: 35px;
 }
 
 .blog-content .entry-img,
@@ -1739,7 +1740,7 @@ textarea:focus {
 }
 
 .blog-content .entry-meta li:first-child:before {
-	margin: 0 0 0 -3px;
+  margin: 0 0 0 -3px;
 }
 
 
@@ -1749,7 +1750,7 @@ textarea:focus {
   width: 70px;
   height: 70px;
   border: 3px solid #333;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Amiko", sans-serif;
   color: #3b3b3b;
   font-weight: bold;
   text-align: center;
@@ -1775,7 +1776,7 @@ textarea:focus {
 }
 
 .blog-content .entry-meta li {
-	margin-bottom: 7px;
+  margin-bottom: 7px;
 }
 
 .blog-content .entry-content {
@@ -1783,9 +1784,9 @@ textarea:focus {
 }
 
 .entry-content > i {
-	margin-left: 3px;
-	font-size: 14px;
-	vertical-align: middle;
+  margin-left: 3px;
+  font-size: 14px;
+  vertical-align: middle;
 }
 
 
@@ -1802,17 +1803,17 @@ textarea:focus {
   font-size: 22px;
   line-height: 34px;
   font-style: italic;
-  font-family: "Roboto", Serif;
+  font-family: "Assistant", Sans-Serif;
 }
 
 .blog-content .entry-item blockquote > p > a:hover {
-  color: #7a7a7a;
+  color: #555;
 }
 
 .blockquote-style-1 > i {
-	font-size: 22px;
-	color: #d1d1d1;
-	margin-bottom: 13px;
+  font-size: 22px;
+  color: #d1d1d1;
+  margin-bottom: 13px;
 }
 
 /* Video Post
@@ -1850,21 +1851,21 @@ textarea:focus {
   -o-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Amiko", sans-serif;
   font-weight: bold;
   text-transform: uppercase;
 }
 
 .pagination span.pagination-dots {
-	margin: 0 3px;
+  margin: 0 3px;
 }
 
 .pagination i:first-child {
-	margin-right: -5px;
+  margin-right: -5px;
 }
 
 .pagination i:last-child {
-	margin-left: -7px;
+  margin-left: -7px;
 }
 
 .pagination a {
@@ -1885,8 +1886,8 @@ textarea:focus {
 }
 
 .pagination > i {
-	font-size: 14px;
-	vertical-align: middle;
+  font-size: 14px;
+  vertical-align: middle;
 }
 
 
@@ -1918,7 +1919,7 @@ textarea:focus {
 }
 
 .sidebar .widget ul li a {
-  color: #7a7a7a;
+  color: #555;
 }
 
 .sidebar .widget ul li a:hover {
@@ -1926,23 +1927,23 @@ textarea:focus {
 }
 
 .widget-title {
-	font-size: 15px;
-	margin-bottom: 28px;
+  font-size: 15px;
+  margin-bottom: 28px;
 }
 
 .blog-sidebar .searchbox {
-	border: 2px solid #e5e5e5;
-	margin-bottom: 0;
-	padding: 0 20px;
+  border: 2px solid #e5e5e5;
+  margin-bottom: 0;
+  padding: 0 20px;
 }
 
 input[type="search"] {
-	color: #333;
+  color: #333;
 }
 
 input.searchbox:focus {
-	border-color: #8CBEB5;
-	color: #333;
+  border-color: #043298;
+  color: #333;
 }
 
 .search-button {
@@ -1962,8 +1963,8 @@ input.searchbox:focus {
 -------------------------------------------------------*/
 
 .blog-sidebar .widget.latest-posts ul li {
-	border-bottom: none;
-	line-height: 19px;
+  border-bottom: none;
+  line-height: 19px;
 }
 
 .blog-sidebar .latest-posts img {
@@ -1985,7 +1986,7 @@ input.searchbox:focus {
 
 .widget.latest-posts ul li a {
   font-size: 11px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Amiko", sans-serif;
   text-transform: uppercase;
   color: #333;
   vertical-align: top;
@@ -1993,16 +1994,16 @@ input.searchbox:focus {
 }
 
 .widget.latest-posts .entry-meta > span {
-  color: #7a7a7a;
+  color: #555;
   font-size: 13px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Assistant", sans-serif;
   text-transform: none;
   margin-top: 5px;
   display: block;
 }
 
 .widget.latest-posts ul li a:hover {
-	color: #7a7a7a;
+  color: #555;
 }
 
 
@@ -2012,7 +2013,7 @@ input.searchbox:focus {
 .tags a {
   background-color: transparent;
   border: 3px solid #e5e5e5;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Amiko", sans-serif;
   text-transform: uppercase;
   padding: 9px 16px;
   line-height: 1;
@@ -2028,8 +2029,8 @@ input.searchbox:focus {
 }
 
 .tags a:hover {
-	border-color: #333;
-	color: #333;
+  border-color: #333;
+  color: #333;
 }
 
 
@@ -2038,32 +2039,32 @@ input.searchbox:focus {
 /*-------------------------------------------------------*/
 
 .blog-single .entry-item {
-	margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .blog-single .entry-title {
-	margin-top: 70px;
-	text-align: center;
+  margin-top: 70px;
+  text-align: center;
 }
 
 .blog-single .entry-meta {
-	text-align: center;
+  text-align: center;
 }
 
 .blog-single .blog-content .entry-title h2 {
-	font-size: 28px;
+  font-size: 28px;
 }
 
 .blog-single .blog-content .entry-content {
-	margin-top: 50px;
+  margin-top: 50px;
 }
 
 .blog-single .blog-content blockquote {
-	margin: 60px 0;
+  margin: 60px 0;
 }
 
 .blog-single .blog-content .entry-content > p {
-	margin-bottom: 24px;
+  margin-bottom: 24px;
 }
 
 .entry-content .entry-tags h6,
@@ -2074,12 +2075,12 @@ input.searchbox:focus {
 }
 
 .entry-content .entry-tags h6 {
-	margin-right: 7px;
+  margin-right: 7px;
 }
 
 .entry-share .socials i,
 .entry-share .socials a {
-	width: 32px;
+  width: 32px;
   height: 32px;
   line-height: 32px;
 }
@@ -2088,8 +2089,8 @@ input.searchbox:focus {
   font-style: italic;
   font-size: 14px;
   line-height: 37px;
-  font-family: "Roboto", Serif;
-  color: #7a7a7a;
+  font-family: "Assistant", Sans-serif;
+  color: #555;
 }
 
 .entry-content .entry-share {
@@ -2103,9 +2104,9 @@ input.searchbox:focus {
 
 .entry-tags h6,
 .entry-share h6 {
-	font-size: 15px;
-	text-transform: none;
-	letter-spacing: normal;
+  font-size: 15px;
+  text-transform: none;
+  letter-spacing: normal;
 }
 
 .entry-comments .comment-avatar {
@@ -2120,7 +2121,7 @@ input.searchbox:focus {
 .entry-comments .comment-author {
   display: block;
   margin-bottom: 5px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Amiko", sans-serif;
   font-weight: bold;
   font-size: 15px;
   color: #333;
@@ -2132,17 +2133,17 @@ input.searchbox:focus {
 
 .entry-comments .comment-content span a {
   font-size: 13px;
-  color: #7a7a7a;
+  color: #555;
 }
 
 .comment-content p {
-	margin-top: 15px;
+  margin-top: 15px;
 }
 
 .comment-content > a {
-	font-family: "Montserrat", sans-serif;
-	color: #333;
-	font-size: 14px;
+  font-family: "Amiko", sans-serif;
+  color: #333;
+  font-size: 14px;
 }
 
 .comment-reply {
@@ -2155,8 +2156,8 @@ input.searchbox:focus {
 }
 
 .comment-list > li:last-child .comment-body {
-	border-bottom: none;
-	padding-bottom: 0;
+  border-bottom: none;
+  padding-bottom: 0;
 }
 
 
@@ -2422,7 +2423,7 @@ input.searchbox:focus {
   min-width: 200px;
   margin: 0;
   padding: 10px 0;
-  border-top: 3px solid #8CBEB5;
+  border-top: 3px solid #043298;
   border-left: 1px solid #ebebeb;
   border-right: 1px solid #ebebeb;
   border-bottom: none;
@@ -2433,7 +2434,7 @@ input.searchbox:focus {
 .dropdown-menu > li > a {
   padding: 10px 20px;
   font-size: 13px;
-  color: #7a7a7a;
+  color: #555;
   transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -2453,7 +2454,7 @@ input.searchbox:focus {
 .dropdown-menu > li > a:focus,
 .dropdown-menu > li > a:hover {
   background-color: transparent;
-  color: #8CBEB5;
+  color: #043298;
 }
 
 .dropdown-menu, 
@@ -2478,7 +2479,7 @@ input.searchbox:focus {
   clear: both;
   font-weight: 500;
   line-height: 1.42857143;
-  color: #7a7a7a;
+  color: #555;
   white-space: nowrap;
   transition: all .3s ease-in-out;
   -moz-transition: all .3s ease-in-out;
@@ -2616,7 +2617,7 @@ input.searchbox:focus {
   text-decoration: none;
   padding: 7px 15px;
   border: 3px solid #e5e5e5;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Amiko", sans-serif;
   text-transform: uppercase;
   font-size: 12px;
   transition: all .3s ease-in-out;
@@ -2681,7 +2682,7 @@ input.searchbox:focus {
 
 .project-icons a:hover {
   color: #fff;
-  background-color: #8CBEB5;
+  background-color: #043298;
 }
 
 .work-img:hover .portfolio-overlay {
@@ -2720,7 +2721,7 @@ input.searchbox:focus {
 
 .works-grid.titles .work-description a:hover,
 #owl-related-works .work-description a:hover {
-  color: #8CBEB5;
+  color: #043298;
 }
 
 /* Call to Action Style-2
@@ -2782,7 +2783,7 @@ input.searchbox:focus {
 }
 
 .best-price {
-  background-color: #8CBEB5;
+  background-color: #043298;
 }
 
 .pricing-price {
@@ -2806,7 +2807,7 @@ input.searchbox:focus {
 }
 
 .pricing-currency {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Amiko', sans-serif;
 } 
 
 .pricing-term {
@@ -2816,7 +2817,7 @@ input.searchbox:focus {
 
 .pricing-features {
   padding: 100px 40px 40px; 
-  color: #7a7a7a;
+  color: #555;
 }
 
 .pricing-features li {
@@ -2857,7 +2858,7 @@ input.searchbox:focus {
 -------------------------------------------------------*/
 
 .testimonials.style-2 .testimonial-text {
-  color: #7a7a7a;
+  color: #555;
 }
 
 .testimonials.style-2 .owl-carousel {
@@ -2919,11 +2920,11 @@ input.searchbox:focus {
 }
 
 .footer-widgets a {
-  color: #7a7a7a;
+  color: #fff;
 }
 
 .footer-widgets a:hover {
-  color: #fff;
+  color: #A8C0E2;
 }
 
 .footer-get-in-touch p {
@@ -3084,7 +3085,7 @@ p.footer-address {
   -ms-border-radius: 0;
   -o-border-radius: 0;
   border-radius: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Amiko', sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   -webkit-transition: all .3s ease-in-out;
@@ -3157,7 +3158,7 @@ p.footer-address {
   -o-border-radius: 0;
   border-radius: 0;
   margin-right: 10px;
-  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-family: "Amiko", Helvetica, Arial, sans-serif;
   color: #7a7a7a;
   font-size: 12px;
   text-transform: uppercase;
@@ -3189,7 +3190,7 @@ p.footer-address {
 .section-buttons .btn { margin-bottom: 20px; }
 
 .btn {
-  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-family: "Amiko", Helvetica, Arial, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   text-decoration: none;
@@ -3228,7 +3229,7 @@ p.footer-address {
 }
 
 .btn.btn-color {
-  background-color: #8CBEB5;
+  background-color: #043298;
 }
 
 .btn.btn-transparent {
@@ -3262,7 +3263,7 @@ p.footer-address {
   -webkit-transition: all .2s ease-in-out;
   -o-transition: all .2s ease-in-out;
   color: #fff;
-  background-color: #8CBEB5;
+  background-color: #043298;
   border-color: transparent;
 }
 
@@ -3306,7 +3307,7 @@ p.footer-address {
   line-height: 174px;
   z-index: 2;
   font-size: 24px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Amiko', sans-serif;
   color: #333;
 }
 
@@ -3410,7 +3411,7 @@ blockquote > span {
 .highlight {
   padding: 3px 5px;
   color: #fff;
-  background-color: #8CBEB5;
+  background-color: #043298;
 }
 
 .bullets li,
@@ -3486,11 +3487,11 @@ ol.numbers {
 }
 
 .portfolio-description ul > li a {
-  color: #7a7a7a;
+  color: #555;
 }
 
 .portfolio-description ul > li a:hover {
-  color: #8CBEB5;
+  color: #043298;
 }
 
 .related-projects .work-container {
@@ -3523,7 +3524,7 @@ ol.numbers {
 }
 
 .related-projects .customNavigation a:hover {
-  background-color: #8CBEB5;
+  background-color: #043298;
   color: #fff;
 }
 
@@ -3657,7 +3658,7 @@ ol.numbers {
   display: block;
   position: relative;
   overflow: hidden;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Amiko', sans-serif;
   font-size: 36px;
   letter-spacing: 0.05em;
   color: #fff;
@@ -3673,7 +3674,7 @@ ol.numbers {
 
 .overlay-menu ul li.active > a,
 .overlay-menu ul li a:hover {
-  color: #8CBEB5;
+  color: #043298;
 }
 
 @keyframes fadeInUp {
@@ -3779,10 +3780,10 @@ ol.numbers {
 }
 
 .intro.style-2 .intro-text p {
-  font-size: 50px;
-  font-weight: 700;
-  line-height: 1.5;
-  font-family: "Montserrat", sans-serif;
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 1.3;
+  font-family: "Georgia", serif;
   color: #333;
 }
 
@@ -3852,7 +3853,7 @@ ol.numbers {
 
 .footer-type-3 .footer-socials i {
   background-color: transparent;
-  color: #7a7a7a;
+  color: #555;
 }
 
 .footer-type-3 .footer-socials a:hover i {
@@ -3861,7 +3862,7 @@ ol.numbers {
 }
 
 .footer-type-3 a {
-  color: #7a7a7a;
+  color: #555;
 }
 
 .footer-type-3 a:hover {
@@ -3896,7 +3897,7 @@ ol.numbers {
   text-shadow: none;
   font-weight: 700;
   line-height: 1;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Amiko", sans-serif;
   letter-spacing: 0.02em;
   margin: 0px;
   border-width: 0px;
